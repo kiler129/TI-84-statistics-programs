@@ -25,13 +25,14 @@ Since output values are presented as an decimal values you can also utilize that
 #### RNG
 This is more shortcut than a self contained program. Displays range using values from `1-Var Statistics` (so you have to run it first - otherwise you'll get an garbage or error).
 
-### VAR
+#### VAR
 This is more shortcut than a self contained program. Displays variance for sample (`SAM`) and population (`POP`) using values from `1-Var Statistics` (so you have to run it first - otherwise you'll get an garbage or error).
 
-### ZS / ZSRAW
+#### ZS / ZSRAW
 Calculates z-score of given value in respect of data. Both programs display value rounded to specified number of places after decimal mark (`R` argument).
  * ZS - calculates z-score from mean and std-dev
  * ZSRAW - calculates z-score from given list (*uses `L₆` for temporary storage*)
  
-### Other
+
+## Other resources
 Besides programs published in this repository I also highly recommend [`MATH200A` by Stan Brown](http://brownmath.com/ti83/math200a.htm).
