@@ -1,0 +1,12 @@
+ClrList L₅
+ClrList L₆
+Input "LST",L₆
+Input "MRET",F
+For(X,1,dim(L₆),1)
+If L₆(X)>F
+L₆(X)→L₅(1+dim(L₅))
+End
+Disp "N: "
+Disp dim(L₅)
+Disp "PRC: "
+Disp dim(L₅)/dim(L₆)*100

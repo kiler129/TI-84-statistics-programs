@@ -1,0 +1,6 @@
+Input "MEAN",M
+Input "SDEV",D
+Input "VAL",V
+Input "R",R
+(V-M)/D→F
+Disp "Z-SCR: ",F,round(F,R)

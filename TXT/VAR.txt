@@ -1,0 +1,4 @@
+Disp "POP:"
+Disp σx
+Disp "SAM:"
+Sx

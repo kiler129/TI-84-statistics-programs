@@ -1,0 +1,5 @@
+Input "LST",L₆
+Input "VAL",V
+Input "R",R
+(V-mean(L₆))/stdDev(L₆)→F
+Disp "Z-SCR: ",F,round(F,R)

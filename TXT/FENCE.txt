@@ -1,0 +1,6 @@
+Input "Q1",A
+Input "Q3",C
+C-A→I
+Disp "IRQ ",I
+Disp "LOW ",A-1.5*I
+Disp "HIG ",C+1.5*I

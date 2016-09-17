@@ -1,0 +1,11 @@
+ClrList L₆
+ClrList L₅
+Input "LST",L₆
+Input "R",R
+sum(L₆)→S
+For(X,1,dim(L₆),1)
+L₆(X)/S→D
+round(D,R)→L₅(X)
+round(D*100,R)→L₆(X)
+End
+Disp L₆
